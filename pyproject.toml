@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "PXT日記MCP"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [ "mcp>=1.20.0",]
+dependencies = [
+ "mcp>=1.20.0",
+ "requests>=2.32.5",
+]
 [[project.authors]]
 name = "Anzu Takahashi"
 email = "anzu@happy-girl.jp"
