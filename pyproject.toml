@@ -1,0 +1,17 @@
+[project]
+name = "pxt-anzu-diary-mcp"
+version = "0.1.0"
+description = "PXT日記MCP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [ "mcp>=1.20.0",]
+[[project.authors]]
+name = "Anzu Takahashi"
+email = "anzu@happy-girl.jp"
+
+[build-system]
+requires = [ "uv_build>=0.9.5,<0.10.0",]
+build-backend = "uv_build"
+
+[project.scripts]
+pxt-anzu-diary-mcp = "pxt_anzu_diary_mcp:main"
