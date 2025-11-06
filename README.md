@@ -109,3 +109,24 @@ npx @modelcontextprotocol/inspector uv --directory /Users/anzu/kaisha/pxt-anzu-d
 
 
 Upon launching, the Inspector will display a URL that you can access in your browser to begin debugging.
+
+
+## Gemini CLIでの設定
+```settings.json
+{
+  "mcpServers": {
+    "pxt-anzu-diary-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/your_directory/pxt-anzu-diary-mcp",
+        "pxt-anzu-diary-mcp"
+      ],
+      "env": {
+        "DIARY_API_BASE": "http://localhost:8000/api"
+      }
+    }
+  }
+}
+```
